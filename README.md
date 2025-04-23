@@ -32,8 +32,7 @@ While messaging apps like WhatsApp offer end-to-end encryption for messages and 
 
 ## 📂 Project Structure
 
-pgsql Copy Edit /backend └── encrypt.js └── decrypt.js /frontend └── src/ └── components/ └── App.js └── styles/ uploads/ └── (encrypted images, keys, hashes) README.md package.json
-
+imageCypher/ ├── backend/ │ ├── encrypt.js # Handles image encryption │ ├── decrypt.js # Handles image decryption ├── frontend/ │ ├── src/ │ │ ├── components/ # React components │ │ ├── App.js # Main entry point of the frontend app │ │ ├── styles/ # CSS/SCSS files for styling ├── uploads/ # Folder for encrypted images, keys, and hashes ├── README.md # Project documentation ├── package.json # Backend dependencies and scripts └── package.json # Frontend dependencies and scripts
 
 ---
 
