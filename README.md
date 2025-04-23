@@ -59,7 +59,25 @@ pgsql Copy Edit /backend └── encrypt.js └── decrypt.js /frontend └
 
 ## 📦 Installation
 
-(Provide instructions here)
+Follow the steps below to set up and run `imageCypher` locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/imageCypher.git
+cd imageCypher
+
+2. Install backend dependencies
+
+```bash
+cd backend
+npm install
+
+3. Install frontend dependencies
+
+```bash
+cd ../frontend
+npm install
 
 ---
 
